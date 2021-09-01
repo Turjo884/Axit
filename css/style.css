@@ -34,7 +34,8 @@ a{
 /* Start Header Area */
 header{
     background: #000;
-    height: 75px;
+    /* height: 75px; */
+    padding-bottom: 10px;
 }
 header .fa-bars{
     color: #fff;
@@ -434,7 +435,7 @@ header .menu-logo{
 /* Start Testimonial Section */
 .testimonial{
     background: #fff;
-    padding: 100px;
+    padding: 100px 0;
 }
 .testimonial h2{
     font-size: 40px;
@@ -632,3 +633,37 @@ footer p{
     margin: 0;
 }
 /* End Footer Section */
+
+
+/* Start Responsive For Mobile Device */
+@media (min-width: 320px) and (max-width: 576px){
+    .navbar-light .navbar-nav .nav-link {text-align: center;padding: 6px 0;}
+    .banner .banner-logo {display: block;margin: 0 auto;}
+    .banner h1 {text-align: center;}
+    .banner .banner-border {margin: 30px auto;}
+    .banner p {text-align: center;}
+    .banner .banner-btn {display:block;margin: 35px auto 90px;}
+    .brand h2 {text-align: center;}
+    .brand p {text-align: center;}
+    .social-media li a .fa {font-size: 40px;}
+    .social-media {text-align: center;}
+    .social-media li {margin: 0 5px;}
+    .tab-content h2 {text-align:center;margin: 25px 0 0;}
+    .tab-content p {text-align: center;}
+    .tab-btn {display: block;margin: 0 auto 75px;}
+    .feature-two h2 {margin-top: 28px;text-align: center;}
+    .title {margin: 25px auto;}
+    .feature-two p {text-align: center;}
+    .feature-two img{display: block;margin: 0 auto;}
+    .feature-two h3 {padding-top: 25px;text-align: center;}
+    .feature-three h2 {text-align: center;}
+    .feature-three p {text-align: center;padding-bottom: 28px;}
+    .testimonial-box p {font-size: 13px;width: 313px;text-align: center;margin-right:0;}
+    .testimonial-box::after {font-size:13px;top: 103px;left: 164px;}
+    .owl-carousel .owl-item img {width: 20%;margin:25px auto 0;}
+    .testimonial-box h3 {text-align: center;}
+    .testimonial-box .box-para {text-align: center;}
+    .custom .custom-btn {width: 45%;}
+    .contact .contact-btn {width: 45%;}
+}
+/* End Responsive For Mobile Device */
