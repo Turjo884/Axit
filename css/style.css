@@ -659,7 +659,7 @@ footer p{
     .feature-two h3 {padding-top: 25px;text-align: center;}
     .feature-three h2 {text-align: center;}
     .feature-three p {text-align: center;padding-bottom: 28px;}
-    .testimonial-box p {font-size: 13px;width: 328px;text-align: center;margin-right:0;}
+    .testimonial-box p {font-size: 13px;width: 328px;text-align: center;margin:0 auto;}
     .testimonial-box::after {font-size:13px;top: 100px;left: 164px;}
     .owl-carousel .owl-item img {width: 20%;margin:25px auto 0;}
     .testimonial-box h3 {text-align: center;}
