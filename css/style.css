@@ -635,6 +635,40 @@ footer p{
 /* End Footer Section */
 
 
+/* Start Responsive For Tablet Device */
+@media (min-width: 576px) and (max-width: 768px){
+    .navbar-light .navbar-nav .nav-link {text-align: center;padding: 6px 0;}
+    .banner .banner-logo {display: block;margin: 0 auto;}
+    .banner h1 {text-align: center;}
+    .banner .banner-border {margin: 30px auto;}
+    .banner p {text-align: center;}
+    .banner .banner-btn {display:block;margin: 35px auto 90px;}
+    .brand h2 {text-align: center;}
+    .brand p {text-align: center;}
+    .social-media {text-align: center;}
+    .tab-content h2 {text-align:center;margin: 25px 0 0;}
+    .tab-content p {text-align: center;}
+    .tab-btn {display: block;margin: 0 auto 75px;}
+    .feature-one img{display:block;margin: 0 auto;}
+    .feature-two h2 {margin-top: 45px;text-align: center;}
+    .title {margin: 25px auto;}
+    .feature-two p {text-align: center;}
+    .feature-two img{display: block;margin: 0 auto;}
+    .feature-two h3 {padding-top: 25px;text-align: center;}
+    .feature-three h2 {text-align: center;}
+    .feature-three p {text-align: center;padding-bottom: 45px;}
+    .feature-three img{display: block!important;margin: 0 auto!important;float:none!important;}
+    .testimonial-box {width: 245px;}
+    .testimonial-box::after {top: 170px;left: 110px;}
+    .owl-carousel .owl-item img {width: 30%;margin:25px auto 0;}
+    .testimonial-box h3 {text-align: center;}
+    .testimonial-box .box-para {text-align: center;}
+    .custom .custom-btn {width: 23%;}
+    .contact .contact-btn {width: 23%;}
+}
+/* End Responsive For Tablet Device */
+
+
 /* Start Responsive For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
     .navbar-light .navbar-nav .nav-link {text-align: center;padding: 6px 0;}
@@ -659,7 +693,7 @@ footer p{
     .feature-two h3 {padding-top: 25px;text-align: center;}
     .feature-three h2 {text-align: center;}
     .feature-three p {text-align: center;padding-bottom: 28px;}
-    .testimonial-box::after {top: 130px;left: 160px;}
+    .testimonial-box::after {top: 128px;left: 160px;}
     .owl-carousel .owl-item img {width: 20%;margin:25px auto 0;}
     .testimonial-box h3 {text-align: center;}
     .testimonial-box .box-para {text-align: center;}
