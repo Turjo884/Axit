@@ -652,6 +652,7 @@ footer p{
     .tab-content h2 {text-align:center;margin: 25px 0 0;}
     .tab-content p {text-align: center;}
     .tab-btn {display: block;margin: 0 auto 75px;}
+    .feature-option li {width: 40%;display: block;margin: 3px auto 0;}
     .feature-one img{display: block!important;margin: 0 auto!important;float:none!important;}
     .feature-two h2 {margin-top: 45px;text-align: center;}
     .title {margin: 25px auto;}
@@ -688,6 +689,7 @@ footer p{
     .tab-content h2 {text-align:center;margin: 25px 0 0;}
     .tab-content p {text-align: center;}
     .tab-btn {display: block;margin: 0 auto 75px;}
+    .feature-option li {width: 50%;display: block;margin: 3px auto 0;}
     .feature-one img{display: block!important;margin: 0 auto!important;float:none!important;}
     .feature-two h2 {margin-top: 28px;text-align: center;}
     .title {margin: 25px auto;}
